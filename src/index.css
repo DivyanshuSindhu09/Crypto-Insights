@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&family=Syne:wght@400..800&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+  --font-outfit: "Outfit"; 
+}
+
+body{
+  overflow-x: hidden;
+}

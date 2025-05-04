@@ -1,0 +1,54 @@
+.table{
+    font-family: outfit;
+    color: white;
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+    padding: 15px 20px;
+    align-items: center;
+    border-bottom: 1px solid #3c3c3c;
+}
+
+#cryp{
+    background-color: rgba(255, 255, 255, 0.137);
+    backdrop-filter: blur(20px);
+    
+}
+
+#market{
+    text-align: right;
+}
+
+.table:last-child{
+    border-bottom: none;
+}
+
+.Green{
+    color: #00d515;
+}
+
+.Red{
+    color: #ff4646;
+}
+
+#loader{
+    border: 5px solid #bdbdbd;
+    border-radius: 50%;
+    border-top-color: #000;
+    animation: rotate 2s infinite;
+}
+
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.info{
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: 2px solid #5f5d5f;
+    list-style: none;
+}
