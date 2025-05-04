@@ -6,4 +6,5 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
     react()],
+    base : '/Crypto-Insights'
 })
